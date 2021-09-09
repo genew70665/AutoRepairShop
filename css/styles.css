@@ -1,0 +1,53 @@
+/* CSS Color Variables */
+
+:root {
+    --mydark: #8d8741;
+    --myfont: #5287a5;
+    --mybeige: #DAAD86;
+    --mybrown: #BC986A;
+    --mylight:#fbeec1;
+    --mywhite: #FAEBD7;
+    --myblack: #000;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--myblack);
+}
+
+body {
+    background: var(--mylight);
+}
+
+h1 {
+    color: var(--myblack);
+}
+
+.top-header {
+    background-color: var(--myblack);
+    
+    width: 100%;
+    height: 2rem;
+}
+
+.top-header h5 {
+    color: var(--mywhite);
+    margin-left: 1rem;
+}
+
+.navigation-menu {
+    background: var(--myfont);
+}
+
+.nav-item a{
+    color: var(--mywhite);
+}
+
+.pic-1 {
+    margin: 5px 10px;
+}
+
+.lower-box {
+    background: var(--mybeige);
+}
