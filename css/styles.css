@@ -1,10 +1,10 @@
 /* CSS Color Variables */
 
 :root {
-    --mydark: #8d8741;
+    --mydark: #5c57223b;
     --myfont: #5287a5;
     --mybeige: #DAAD86;
-    --mybrown: #BC986A;
+    --mybrown: #977447;
     --mylight:#fbeec1;
     --mywhite: #FAEBD7;
     --myblack: #000;
@@ -26,14 +26,16 @@ h1 {
 
 .top-header {
     background-color: var(--myblack);
-    
+    display: flex;
     width: 100%;
     height: 2rem;
 }
 
-.top-header h5 {
+.top-header h6 {
     color: var(--mywhite);
     margin-left: 1rem;
+    margin-right: 3rem;
+    margin-top: 4px;
 }
 
 .navigation-menu {
@@ -44,6 +46,10 @@ h1 {
     color: var(--mywhite);
 }
 
+.myactive {
+    color: var(--mybeige);
+}
+
 .pic-1 {
     margin: 5px 10px;
 }
@@ -51,3 +57,31 @@ h1 {
 .lower-box {
     background: var(--mybeige);
 }
+
+.line-break {
+    background:#5287a5;
+    width: 100%;
+    height: 2px;
+}
+
+.middle-section {
+    background: var(--mylight);
+}
+
+footer {
+    background: var(--myfont);
+    width:100%;
+    height: 6rem;
+    color: var(--mywhite);
+}
+
+footer h4{
+    text-align: center;
+}
+
+.footer-logos {
+    width: 50px;
+    height: 50px;
+    align-items: stretch;
+}
+
