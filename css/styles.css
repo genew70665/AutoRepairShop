@@ -52,6 +52,12 @@ h1 {
 
 .pic-1 {
     margin: 5px 10px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.description{
+    border: var(--myblack) solid 2px;
 }
 
 .lower-box {
@@ -79,9 +85,16 @@ footer h4{
     text-align: center;
 }
 
-.footer-logos {
-    width: 50px;
+.footer-div {
+    display: inline;
+    align-items:space-between;
+    width:50px;
     height: 50px;
-    align-items: stretch;
-}
+    }
 
+.footer-logos{
+    width:50px;
+    height: 50px;
+    margin-left: 5rem;
+    margin-right:15rem;
+}
